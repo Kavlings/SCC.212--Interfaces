@@ -1,0 +1,16 @@
+
+Hi folks,
+
+We didn't get to the coursework question in the lecture on Friday.
+
+There are really two questions I'm getting a lot:
+
+1. What's the difference between SEARCH and INDEX.  SEARCH looks up an item by its content (find a thing by its value).  INDEX you can think of as find the item at position n (like indexing into an array).
+
+2. How does INDEX make sense for a HashTable - well, philosophically it doesn't really make a lot of sense as this is a data structure which is not organised linearly, except for the purposes of comparison.  But what I'd recommend here is find or enumerate through the keys (the hash function goes from the key to the value), find e.g. one half way through your data and return the item with that key.
+
+Hope that clarifies, can try to explain more in next week's labs.
+
+Best,
+
+Adrian.
